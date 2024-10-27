@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>My portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#" style="padding-left: 20px;">Matthew's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item" style="padding-right: 20px;">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container d-flex flex-column align-items-center justify-content-center" style="min-height: 50vh; padding-top: 20px;">
+        <div class="row">
+            <div class="col-mf-6">
+                <img src="./assets/img/misc/profile-2.jpg" class="img-fluid custom-image" alt="">
+            </div>
+            <h1 class="display-4 mt-4">
+                Meet Tiemo Sinkopre Matthew, web developer
+            </h1>
+        </div>
+
+    </div>
+    <section id="about" class="py-5">
+        <div class="container">
+            <p>Hi I'm Sinkopre - A results-driven web developer with a passion for conceptualizing, developing, and building the best website that achieve the objective of being a web developer, Let's work together in 2024.</p>
+        </div>
+    </section>
+    <div id="projects" class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border rounded shadow-lg">
+                    <img src="./assets/img/misc/project-2.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border rounded shadow-lg">
+                    <img src="./assets/img/misc/project-3.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border rounded shadow-lg">
+                    <img src="./assets/img/misc/project-4.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Javascript</h5>
+                        <a href="#" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container">
+        <h2 class="text-center" style="margin-top: 100px;">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+    <footer class="footer text-center py-4">
+        <p>&copy; 2024 Matthew's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

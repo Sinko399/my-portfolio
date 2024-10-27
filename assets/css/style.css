@@ -1,0 +1,33 @@
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color for contrast */
+    padding-top: 56px;
+}
+
+.custom-image {
+    width: 900px;
+    height: 60vh;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.jumbotron {
+    background-color: #1e1e1e; /* Slightly lighter background for the jumbotron */
+}
+
+.card {
+    background-color: #2a2a2a; /* Dark background for cards */
+    border: none; /* Remove card border */
+}
+
+.card-title, .card-text {
+    color: #ffffff; /* Light text color for card content */
+}
+
+.navbar {
+    background-color: #1e1e1e; /* Dark navbar background */
+}
+
+.footer {
+    background-color: #1e1e1e; /* Dark footer background */
+}
